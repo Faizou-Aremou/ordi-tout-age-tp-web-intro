@@ -1,0 +1,73 @@
+    body {
+        background-color: #202020;
+        color: #ffffff;
+    }
+    
+    .video-content-manager {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        grid-template-areas: "toolbar toolbar""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result""navbar videos-result";
+        gap: 10px;
+        height: 90vh;
+    }
+    
+    .video-content-manager_toolbar {
+        grid-area: toolbar;
+        display: flex;
+    }
+    
+    .video-content-manager_toolbar_navbar-action {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .video-content-manager_toolbar_search-box {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .video-content-manager_toolbar_search-box_writing {
+        flex: 1 1 auto;
+        display: flex;
+    }
+    
+    .video-content-manager_toolbar_search-box_writing_box {
+        flex: 1 1 auto;
+    }
+    
+    .video-content-manager_toolbar_search-box_writing_box_action-button {
+        flex: 0 0 auto;
+    }
+    
+    .video-content-manager_toolbar_search-box_audio {
+        flex: 0 0 auto;
+        margin-inline-start: 4px;
+        border-radius: 50%;
+    }
+    
+    .video-content-manager_toolbar_admin {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .video-content-manager_navbar {
+        grid-area: navbar;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .video-content-manager_navbar_links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .video-content-manager_videos-results {
+        grid-area: videos-result;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        background-color: #181818;
+    }
