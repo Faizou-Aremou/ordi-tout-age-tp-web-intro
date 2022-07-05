@@ -13,118 +13,170 @@
 <body>
     <section class="video-content-manager">
         <div class="video-content-manager_toolbar">
-            <div class="video-content-manager_toolbar_navbar-action"> <button class="video-content-manager_toolbar_navbar-action_button" id="video-content-manager_toolbar_navbar-action_button">
+            <div class="video-content-manager_toolbar_navbar-action"> <button class="video-content-manager_toolbar_navbar-action_button text-button" id="video-content-manager_toolbar_navbar-action_button">
                     <span class="material-symbols-outlined">
                         menu
                     </span></button>
                 <div class="video-content-manager_toolbar_navbar-action_logo"></div>
             </div>
             <div class="video-content-manager_toolbar_search-box">
-                <form class="video-content-manager_toolbar_search-box_writing">
+                <div class="video-content-manager_toolbar_search-box_writing">
                     <input class="video-content-manager_toolbar_search-box_writing_box" type="text" placeholder="Search">
-                    <button class="video-content-manager_toolbar_search-box_writing_box_action-button" id="video-content-manager_toolbar_search-box_writing_box_action-button" type="button">
+                    <button class="video-content-manager_toolbar_search-box_writing_box_action-button text-button" id="video-content-manager_toolbar_search-box_writing_box_action-button" type="button">
                         <span class="material-symbols-outlined">
                             search
                         </span>
                     </button>
-                </form>
-                <div class="video-content-manager_toolbar_search-box_audio">
-                    <button class="video-content-manager_toolbar_search-box_audio_button" id="video-content-manager_toolbar_search-box_audio_button"><span class="material-symbols-outlined">
-                            mic
-                        </span></button>
                 </div>
+
+                <button class="video-content-manager_toolbar_search-box_audio text-button" id="video-content-manager_toolbar_search-box_audio"><span class="material-symbols-outlined">
+                        mic
+                    </span></button>
+
 
             </div>
 
             <div class="video-content-manager_toolbar_admin">
-                <button class="video-content-manager_toolbar_admin_create-video-button">
+                <button class="video-content-manager_toolbar_admin_create-video-button text-button">
                     <span class="material-symbols-outlined">
                         video_call
                     </span>
                 </button>
-                <button class="video-content-manager_toolbar_admin_notification-button">
+                <button class="video-content-manager_toolbar_admin_notification-button text-button">
                     <span class="material-symbols-outlined">
                         apps
                     </span>
                 </button>
-                <button class="video-content-manager_toolbar_admin_account-button">
+                <button class="video-content-manager_toolbar_admin_account-button text-button">
                     <span class="material-symbols-outlined">
                         notifications
                     </span>
                 </button>
-                <button> <img class="video-content-manager_toolbar_adminaccount-photo"> </button>
+                <img class="video-content-manager_toolbar_admin_account-photo img-button" src="./assets/aremoufaizou.jpg">
             </div>
 
         </div>
         <nav class="video-content-manager_navbar">
             <div class="video-content-manager_navbar_links ">
-                <a>
-                    <span class="material-symbols-outlined">
-                        home
-                    </span>
-                    <span>Home</span>
+                <a class="video-content-manager_navbar_links_item link-button">
+                    <div class="video-content-manager_navbar_links_item_icon">
+                        <span class=" material-symbols-outlined ">
+                            home
+                        </span>
+                    </div>
+                    <div class="video-content-manager_navbar_links_item_text"><span>Home</span></div>
                 </a>
-                <a>
-                    <span class="material-symbols-outlined">
-                        explore
-                    </span>
-                    <span>Explore</span>
+                <a class="video-content-manager_navbar_links_item link-button">
+                    <div class="video-content-manager_navbar_links_item_icon"> <span class="material-symbols-outlined ">
+                            explore
+                        </span> </div>
+
+                    <div class="video-content-manager_navbar_links_item_text"><span>Explore</span></div>
                 </a>
-                <a>
-                    <span class="material-symbols-outlined">
-                        subscriptions
-                    </span>
-                    <span> Subscriptions</span>
+                <a class="video-content-manager_navbar_links_item link-button">
+                    <div class=" video-content-manager_navbar_links_item_icon "><span class="material-symbols-outlined ">
+                            subscriptions
+                        </span></div>
+                    <div class="video-content-manager_navbar_links_item_text "><span> Subscriptions</span></div>
                 </a>
-                <a>
-                    <span class="material-symbols-outlined">
-                        video_library
-                    </span>
-                    <span>Library</span>
+                <a class="video-content-manager_navbar_links_item link-button">
+                    <div class="video-content-manager_navbar_links_item_icon "><span class="material-symbols-outlined ">
+                            video_library
+                        </span></div>
+                    <div class="video-content-manager_navbar_links_item_text "><span>Library</span></div>
                 </a>
             </div>
             <footer> </footer>
         </nav>
         <section class="video-content-manager_videos-results ">
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src=" https://www.youtube.com/embed/nEET5FsCf40 "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/g9u6KleX7iU ">
+                </iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/xj-YlOQxaJM "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe src="https://www.youtube.com/embed/YKseSCYwoc4 " class="video-content-manager_videos-results_video_frame "> </iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/tS6lTKoaOKA "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/dcN9QXxmRqk "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/uE3UPEK26U0 "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/XUPINAP3WAw "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/r5OEIY7oz6I "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/RyM5V0azRhA "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/Fkd9TWUtFm0 ">
+                </iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
-            <div class="video-content-manager_videos-results_video_card ">
-                <iframe></iframe>
+            <div class="video-content-manager_videos-results_video card ">
+                <iframe class="video-content-manager_videos-results_video_frame " src="https://www.youtube.com/embed/hjcX_IHd4uE "></iframe>
+                <div class="video-content-manager_videos-results_video_details ">
+                    <h4><b>Video title</b></h4>
+                    <p>additional infos</p>
+                </div>
             </div>
         </section>
     </section>
 </body>
 
 </html>
-<!--- -->

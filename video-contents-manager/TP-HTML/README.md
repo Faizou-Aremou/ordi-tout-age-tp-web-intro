@@ -1,6 +1,6 @@
 # TP découverte html
 
- L'objectif de cette scéance de TP est de découvrir le langage HTML au travers de la création d'un mini site web.
+ L'objectif de ce de TP est de s'initier au HTML au travers de la création d'un mini site web.
 
  ## Préparation
 
