@@ -1,4 +1,4 @@
-body {
+* {
     background-color: #202020;
     color: #ffffff;
     box-sizing: border-box;
@@ -35,7 +35,6 @@ body {
     flex: 1 1 auto;
     display: flex;
 }
-
 
 .video-content-manager_toolbar_search-box_writing_box {
     flex: 1 1 auto;
@@ -120,7 +119,6 @@ body {
 
 .video-content-manager_videos-results_video {
     width: 100%;
-    box-sizing: border-box;
 }
 
 .video-content-manager_videos-results_video_details {
@@ -131,7 +129,6 @@ body {
 .video-content-manager_videos-results_video_frame {
     width: 100%;
     height: 66%;
-    box-sizing: border-box;
 }
 
 .text-button {
