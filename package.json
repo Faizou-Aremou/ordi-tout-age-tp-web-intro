@@ -1,7 +1,7 @@
 {
     "scripts": {
 
-        "build": "parcel build video-contents-manager/TP-JS/src/video-content-manager.html"
+        "build": "parcel build video-contents-manager/TP-JS/src/index.html"
     },
     "dependencies": {
         "parcel": "^2.6.2"
