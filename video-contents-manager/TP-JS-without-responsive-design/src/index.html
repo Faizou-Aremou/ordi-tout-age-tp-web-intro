@@ -5,16 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Videos content manager </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" type="text/css" href="./video-content-manager.css">
 </head>
 
 <body>
     <section class="video-content-manager">
         <div class="video-content-manager_toolbar">
-            <div class="video-content-manager_toolbar_navbar-action">
-                <button class="video-content-manager_toolbar_navbar-action_button text-button" id="video-content-manager_toolbar_navbar-action_button" onClick="collapseNavbar()">
+            <div class="video-content-manager_toolbar_navbar-action"> 
+                <button
+                    class="video-content-manager_toolbar_navbar-action_button text-button"
+                    id="video-content-manager_toolbar_navbar-action_button" onClick="collapseNavbar()">
                     <span class="material-symbols-outlined">
                         menu
                     </span>
@@ -23,15 +27,18 @@
             </div>
             <div class="video-content-manager_toolbar_search-box">
                 <div class="video-content-manager_toolbar_search-box_writing">
-                    <input class="video-content-manager_toolbar_search-box_writing_box" type="text" placeholder="Search">
-                    <button class="video-content-manager_toolbar_search-box_writing_box_action-button text-button" id="video-content-manager_toolbar_search-box_writing_box_action-button" type="button">
+                    <input class="video-content-manager_toolbar_search-box_writing_box" type="text"
+                        placeholder="Search">
+                    <button class="video-content-manager_toolbar_search-box_writing_box_action-button text-button"
+                        id="video-content-manager_toolbar_search-box_writing_box_action-button" type="button">
                         <span class="material-symbols-outlined">
                             search
                         </span>
                     </button>
                 </div>
 
-                <button class="video-content-manager_toolbar_search-box_audio text-button" id="video-content-manager_toolbar_search-box_audio"><span class="material-symbols-outlined">
+                <button class="video-content-manager_toolbar_search-box_audio text-button"
+                    id="video-content-manager_toolbar_search-box_audio"><span class="material-symbols-outlined">
                         mic
                     </span></button>
 
@@ -39,8 +46,10 @@
             </div>
 
             <div class="video-content-manager_toolbar_admin">
-                <input class="video-content-manager_toolbar_admin_add-video" type="text" placeholder="URL" id="addVideoField">
-                <button class="video-content-manager_toolbar_admin_create-video-button text-button" onClick="addVideo()">
+                <input class="video-content-manager_toolbar_search-box_writing_box" type="text" placeholder="URL"
+                    id="addVideoField">
+                <button class="video-content-manager_toolbar_admin_create-video-button text-button"
+                    onClick="addVideo()">
                     <span class="material-symbols-outlined">
                         video_call
                     </span>
@@ -55,7 +64,8 @@
                         notifications
                     </span>
                 </button>
-                <img class="video-content-manager_toolbar_admin_account-photo img-button" src="./assets/aremoufaizou.jpg">
+                <img class="video-content-manager_toolbar_admin_account-photo img-button"
+                    src="./assets/aremoufaizou.jpg">
             </div>
 
         </div>
@@ -77,7 +87,8 @@
                     <div class="video-content-manager_navbar_links_item_text"><span>Explore</span></div>
                 </a>
                 <a class="video-content-manager_navbar_links_item link-button">
-                    <div class=" video-content-manager_navbar_links_item_icon "><span class="material-symbols-outlined ">
+                    <div class=" video-content-manager_navbar_links_item_icon "><span
+                            class="material-symbols-outlined ">
                             subscriptions
                         </span></div>
                     <div class="video-content-manager_navbar_links_item_text "><span> Subscriptions</span></div>
@@ -89,7 +100,7 @@
                     <div class="video-content-manager_navbar_links_item_text "><span>Library</span></div>
                 </a>
             </div>
-            <footer class="video-content-manager_navbar_footer"> </footer>
+            <footer> </footer>
         </nav>
         <section class="video-content-manager_videos-results " id="results">
         </section>
