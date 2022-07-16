@@ -73,21 +73,21 @@
  }
  
  .video-content-manager_toolbar_admin_create-video-button {
-     flex: 0 0 auto;
+     flex: 1 1 auto;
  }
  
  .video-content-manager_toolbar_admin_notification-button {
-     flex: 0 0 auto;
+     flex: 1 1 auto;
  }
  
  .video-content-manager_toolbar_admin_account-button {
-     flex: 0 0 auto;
+     flex: 1 1 auto;
  }
  
  .video-content-manager_toolbar_admin_account-photo {
-     width: 32px;
+     width: 14px;
      height: 42px;
-     flex: 0 0 auto;
+     flex: 1 1 auto;
      border-radius: 50%;
      display: block;
      object-fit: contain;
