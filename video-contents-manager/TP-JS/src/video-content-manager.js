@@ -9,9 +9,11 @@ let videos = ["https://www.youtube.com/embed/nEET5FsCf40",
     "https://www.youtube.com/embed/r5OEIY7oz6I",
     "https://www.youtube.com/embed/RyM5V0azRhA",
     "https://www.youtube.com/embed/Fkd9TWUtFm0",
-    "https://www.youtube.com/embed/hjcX_IHd4uE"];
+    "https://www.youtube.com/embed/hjcX_IHd4uE"
+];
 
 let isCollapse = false;
+
 function display_videos() {
     let results = document.getElementById("results");
     results.innerHTML = "";
@@ -30,10 +32,8 @@ function addVideo() {
 }
 
 function collapseNavbar() {
-    console.log("test collapse");
     isCollapse = !isCollapse;
     const navbarElement = document.getElementById("video-content-manager_navbar");
-    isCollapse? navbarElement.style.visibility="collapse": navbarElement.style.visibility="visible";
+    isCollapse ? navbarElement.style.visibility = "collapse" : navbarElement.style.visibility = "visible";
 }
 display_videos();
-
